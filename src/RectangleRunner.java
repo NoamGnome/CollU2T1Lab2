@@ -18,6 +18,8 @@ public class RectangleRunner {
 
         // write the rest of your program below
         Rectangle rect1 = new Rectangle(rect1Length, rect1Width);
-        System.out.print("Rectangle 1's' area: " + rect1.calculateArea() + ", Box volume is ");
+        System.out.print("Rectangle 1's area: " + rect1.calculateArea() + ", Box volume is "rect1.printBoxVolume(rect1Height));
+        Rectangle rect2 = new Rectangle(rect2Length, rect2Width);
+        System.out.print("Rectangle 2's area: " + rect2.calculateArea() + ", Box volume is " + rect2.printBoxVolume(rect2Height))
     }
 }
